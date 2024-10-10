@@ -8,8 +8,8 @@
 /* ------------font----------- */
 
 @font-face {
-    font-family: NokiaKokia;
-    src: url(/Assets/NokiaKokia.ttf);
+    font-family: nokiaKokia;
+    src: url(Assets/NokiaKokia.ttf);
 }
 
 html{
@@ -54,7 +54,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-    font-family: NokiaKokia;
+    font-family: nokiaKokia;
     position: relative;
 }
 
@@ -198,7 +198,7 @@ nav ul li a:hover::after{
     font-weight: 500;
     margin-bottom: 15px;
     font-size: 25px;
-    font-family: NokiaKokia;
+    font-family: nokiaKokia;
     color: #fff;
 }
 
