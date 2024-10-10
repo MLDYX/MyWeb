@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Hack, monospace;
+    font-family: 'Hack', Hack, monospace ;
     box-sizing: border-box;
 }
 
@@ -43,7 +43,7 @@ nav ul li a {
     color: azure;
     text-decoration: none;
     font-size: 16px;
-    font-family: NokiaKokia, monospace;
+    font-family: 'NokiaKokia', NokiaKokia, sans-serif;
     position: relative;
 }
 
