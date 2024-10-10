@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+/* ------------font----------- */
+
+@font-face {
+    font-family: NokiaKokia;
+    src: url(./Assets/NokiaKokia.ttf);
+}
+
 html{
     scroll-behavior: smooth !important;
 }
@@ -299,3 +306,4 @@ form .btn{
 }
 
 /* -----------css for small screen ---------------- */
+
