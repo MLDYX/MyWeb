@@ -539,6 +539,12 @@ span {
     background: var(--main-color);
 }
 
+.wheredone {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: small;
+}
+
 .contact {
     min-height: auto;
     padding-bottom: 7rem;
