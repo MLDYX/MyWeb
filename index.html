@@ -106,14 +106,14 @@
         <h2 class="heading">My <span>Education</span></h2>
 
         <div class="services-container">
-            <div class="services-box">
+            <div class="services-box" onclick="redirectTo('https://www.liceum.ur.edu.pl/')">
                 <!-- <i class='bx bx-code-alt'></i> -->
                 <img id="ur" src="images/Sygnet UR (1).png" alt="ur">
                 <h3>Bilingual University High School - DLUR</h3>
                 <p>Science & IT<br>2020 - 2024</p>
                 <!-- <a href="#" class="btn">Read More</a> -->
             </div>
-            <div class="services-box">
+            <div class="services-box" onclick="redirectTo('https://www.agh.edu.pl/')">
                 <!-- <i class='bx bxs-paint'></i> -->
                 <img src="images/agh_znk_wbr_rgb_150ppi.png" alt="agh">
                 <h3>AGH University of Technology</h3>
@@ -192,7 +192,7 @@
             
         </div>
         <div class="wheredone">
-            <p>All of the projects above were done for <a href="https://multi-com.eu/"><b>Multi-COM Sp. z o.o.</b></a></p>
+            <p>All of the projects above were done for <a href="https://multi-com.pl/"><b>Multi-COM Sp. z o.o.</b></a></p>
         </div>
     </section>
 
@@ -280,6 +280,11 @@
 
     <!-- custom js -->
     <script src="js/script.js"></script>
+    <script>
+        function redirectTo(url) {
+            window.open(url, '_blank');
+        }
+    </script>
 </body>
 
 </html>

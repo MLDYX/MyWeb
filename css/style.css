@@ -361,6 +361,7 @@ span {
     border-top: .6rem solid var(--main-color);
     border-bottom: .6rem solid var(--main-color);
     transition: .5s ease;
+    cursor: pointer;
 }
 
 .services-container .services-box:hover {
